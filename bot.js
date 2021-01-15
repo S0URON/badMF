@@ -164,5 +164,5 @@ function random(array) {
 
 
 // login to Discord with your app's token
-client.login(config.token);
+client.login(process.env.BOT_TOKEN);
 
